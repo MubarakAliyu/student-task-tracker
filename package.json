@@ -1,0 +1,16 @@
+{
+  "name": "student-task-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small JavaScript task tracker demonstrating Git, CI, unit testing, and linting.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "lint": "eslint .",
+    "check": "npm run lint && npm test"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
